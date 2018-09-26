@@ -1,0 +1,57 @@
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header {
+	padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  background: #555;
+}
+
+header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
