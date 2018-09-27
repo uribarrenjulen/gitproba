@@ -27,8 +27,7 @@ header h1 {
 footer {
     padding: 1em;
     color: white;
-    background-color: green;
-    clear: left;
+background-color: pink;    clear: left;
     text-align: center;
 }
 
