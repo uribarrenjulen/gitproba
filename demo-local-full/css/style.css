@@ -33,10 +33,9 @@ footer {
 }
 
 nav {
-    float: left;
-    max-width: 160px;
     margin: 0;
-    padding: 1em;
+    padding: 0;
+    background-color: grey;
 }
 
 nav ul {
@@ -48,9 +47,11 @@ nav ul a {
     text-decoration: none;
 }
 
+nav ul il{
+  display: inline-block;
+}
+
 article {
-    margin-left: 170px;
-    border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
