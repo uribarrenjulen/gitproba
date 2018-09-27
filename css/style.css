@@ -33,25 +33,31 @@ footer {
 }
 
 nav {
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
+    display: block;	
+	background-color: #F2F2F2; 
+	
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
+	display: flex;
+	flex-direction: row;
+	
+}
+nav il{
+	flex-grow: 1;
 }
    
 nav ul a {
     text-decoration: none;
+	margin: 10px;
 }
 
 article {
-    margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+	display: block;
 }
 </style>
